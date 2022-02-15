@@ -1,0 +1,289 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body { 
+  background-color: #677388;
+
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+  display: flex; 
+  width: 100%;
+  background-color: #677388;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.logo{
+  justify-content: center;
+  position: absolute;
+  }
+
+nav ul{
+  padding-top: 1em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+button.Donate-button{
+  margin-left: 75%;
+  justify-content: flex-end;
+  
+}
+
+
+nav li{
+  margin-right: 1em;
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+ 
+}
+
+
+.Donate-button{
+  width: 5%;
+  justify-content: flex-end;
+  margin-right: 1em;
+  font-family: sans-serif;
+}
+
+.first-section{
+  padding-bottom: 7em;
+}
+
+section h1{
+  margin-top: 2em;
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  font-family: sans-serif;
+  font-weight: 600px;
+}
+
+section p{
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.why{
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: white;
+  color: black;
+}
+
+section.why p{
+  padding-left: 25%;
+  padding-right: 25%;
+  color: black;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  background-color: #dbdfe2;
+  padding-bottom: 3em;
+}
+
+section >  section{
+  width: 100%;
+  background-color: #dbdfe2;
+  float: left;
+}
+
+section.second-section{
+  width: 100%;
+}
+
+.goku-working-out{
+  width: 42%;
+  padding-top: 5em;
+}
+
+.gang-all-here{
+  width: 50%;
+  padding-top: 5em; 
+}
+
+.visit-the-gym{
+  width: 50%;
+  text-align: center;
+}
+
+.visit-the-gym p{
+  color: black;
+}
+
+
+.have-us-visit{
+  width: 50%;
+  text-align: center;
+  padding-bottom: 5em;
+}
+
+button.hire-us-btn{
+  padding-top: 1em;
+  padding-bottom:1em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+button.see-classes-btn{
+  padding-top: 1em;
+  padding-bottom:1em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+button.volunteer{
+  padding-top: 1em;
+  padding-bottom:1em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.have-us-visit p{
+  color: black;
+}
+
+.third-section{
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: white;
+  color: black;
+}
+
+.third-section > h3{
+  font-size: 2em;
+}
+
+section.third-section p{
+  padding-left: 25%;
+  padding-right: 25%;
+  color: black;
+}
+
+
+.whole-footer{
+  padding-bottom: 4em;
+  padding-right: 10em;
+  padding-left: 5em;
+  padding-top: 4em;
+}
+
+.left-right-footer{
+  display: flex;
+  width: 100%;
+  background-color: #677388;
+}
+
+
+.left-footer{
+  width: 50%;
+}
+
+.left-footer ul{
+  list-style: none;
+}
+
+.left-footer.socials{
+  display: inline-block;
+}
+
+
+ul.socials li{
+  display: inline-block;
+}
+
+ul.site-map li{
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+ul.give-back li{
+  display: inline-block;
+}
+
+section.right-footer{
+  width: 20%;
+  margin-left: 35%;
+ }
+
+.right-footer ul{
+  list-style: none;
+}
+
+.right-footer ul li{
+  margin-bottom: .5em;
+}
+
+.logo-footer{
+  float: right;
+}
+
+.text{
+  float: left;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  font-family: sans-serif;
+}
+.btn-watch-video {
+  display: flex;
+  background: rgba(black, 0.4);
+  color: lightgray;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 200ms ease-in;
+  justify-content: center;
+  margin-top: 2.5em;
+
+}
+a.btn-watch-vdeio.fancybox.fancybox.iframe{
+  margin-left: 50%;
+  justify-content: center;
+}
